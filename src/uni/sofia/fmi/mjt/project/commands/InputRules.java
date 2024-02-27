@@ -71,7 +71,7 @@ public abstract class InputRules {
             |Updating task|
             (!) Parameter "#name:" can't be changed
             (Limitation!) If task was added with "#date" parameter, then it can't be moved to inbox.
-            Only change to another real date
+            Only changes to another valid date are available.
                          
             -> update-task #name:<text> (opt)#cur-date:<YYYY-MM-DD> (opt)#date:<YYYY-MM-DD>
             (opt)#due-date:<YYYY-MM-DD> (opt)#description:<text>
