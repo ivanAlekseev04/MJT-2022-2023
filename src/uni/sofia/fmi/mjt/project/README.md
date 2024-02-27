@@ -41,5 +41,6 @@
 * CommandValidator:
   > Perform validations on users' commands. Check them logically(example: due-date need to be >= date), validate syntax. Checks whether task can be
   changed by certain way, whether user can be added to collaboration etc.  
-
+* StringValidator:
+  > Checks whether String instance is non-empty, non-null and non-blank.
   
