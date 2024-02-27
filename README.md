@@ -10,13 +10,14 @@ test/uni/sofia/fmi/mjt/project/commands - unit-tests provided by JUNIT 5.0.
 * Console client-server application that sends clients' requests(commands) to the server(localhost), that processes them
 and returns result of the command to every client. In case of incorrect syntax/parameters for the command, server will
 return error message to the cliend and log with details for each client.
-* Simulating functionality similar to the <a href="https://todoist.com/?locale=en" targer="_blank">Todoist</a>.
+* Simulating functionality similar to the [Todoist](https://todoist.com/?locale=en)
 
 ## Non-functional requirements:
 * Server need to work("talk") with multiple clients at the same time, e.g. to work in parallel(that was implemented by using
-Java non-blocking IO from package <a href="https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html" target="_blank">java.nio</a>).
+Java non-blocking IO from package [java.nio](https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html)).
 * After shutting down the server, the entire info need to be saved in a proper way to be loaded successfully at the next server launch.
-<ins>Without using any database</ins> **for this specific case** (that was implemented by implementing <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html" target="_blank">Serializable</a> interface and writing CommandExecuter object to the **.ser** file).
+<ins>Without using any database</ins> **for this specific case** (that was achieved by implementing [Serializable](https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html)
+interface and writing CommandExecuter object to the **.ser** file).
 
 ## Logging error messages:
 * In case of incorrect usage of the app by client, proper error need to be sent by server to him and technical info with stack-traces
