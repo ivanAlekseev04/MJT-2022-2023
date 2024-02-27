@@ -42,4 +42,4 @@ uni.sofia.fmi.mjt.project.commands.CommandExecutor.execute(CommandExecutor.java:
 uni.sofia.fmi.mjt.project.server.Server.main(Server.java:80)
 ```
 
-### Detailed explanation of syntax/errors and available commands you can find in [src](https://github.com/ivanAlekseev04/MJT-2022-2023/tree/main/src/uni/sofia/fmi/mjt/project) folder.
+### Detailed explanation of syntax/errors and available commands you can find in [InputRules.java](./src/uni/sofia/fmi/mjt/project/commands/InputRules.java) file.
